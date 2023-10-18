@@ -1,0 +1,51 @@
+- registerOverlays Methode schreiben, damit man alle aufeinmal registrieren kann: NEE DUMME IDEE
+- ordentlich aufteilen, welche Sachen in View, Model und Controller kommen
+- alle Screens static, dann muss man keine Objekte erstellen?: NEEE, AUCH DUMM
+- coolere Buttons erstellen yay: DONE
+- statt einzeln zu picken, was hide und was show -> einfach bei show automatisch alle anderen screens hiden!: DONE
+
+- Button Hover nur wirklich über dem Button DONE
+- gameover escape knopf fixen DONE
+
+- WIESO GEHT MENU CSS NICHT MANN ICH DREHE DURCH, MUSS ICH ES WOANDERS SETZEN? DONE
+this.getScene().getStylesheets().add("menu.css");
+- lieber überall IView erstellen statt immer als Parameter UND statt ITronView??
+- die Texte und Rect iwie als eine Einheit hinkriegen!!! DONE
+
+- ready button
+- WIESO KANN ICH LABEL FONT SIZE NICHT ÖNDERN
+- WIESO MAP IN LOBBY UND NICHT LISTE?
+
+- Name Textfield:
+----> AKTUELL GEHTS NUR WENN ES BEREITS ROOM GIBT
+- Game hübscher
+-> quadratisch, hintergrund nicht weiß, glow
+----> WIESO WIRD DER BG NICHT ANGEZEIGT AHHHHHH
+- Spieler sollte nicht zurück gehen können DONE
+- Direction muss bei restart resettet werden DONE
+- continue resettet game, muss anders sein DONE
+- TRAILS fixen DONE
+- if loser show loserscreen: ne einfach selben screen für beide wo winner steht
+
+- evt player schon ganz am anfang erstellen und nicht erst wenn es lobby gibt
+- game selber zum overlay machen...?
+- leave button implementieren : MHMM noch etwas unsicher ob richtig
+- check input auf bestimmte sachen DONE KINDA
+- alert styling DONE
+- tick erst starten, wenn startGame() aufgerufen wurde??
+
+- timeline stop bei gameover
+
+- update button geht noch nicht
+
+beim starten von serverstub steht manchmal 2 mal der log
+
+pause game
+    man muss beide Spieler malen
+
+    entrypoint 2mal aufrufen! damit man join und so testen kann
+        eventuell bewegt sich 1 spieler nicht, weil sein controller movebike aufrufen muss
+
+vpn hinkriegen
+- firewall ausschalten
+- netzmaske gleich?

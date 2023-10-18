@@ -1,0 +1,148 @@
+/*FARB PALETTE ALS VARIABLEN*/
+* {
+    -fx-white: WHITE;
+    -fx-blue: rgba(44, 173, 229, 1);
+    -fx-pink: rgba(200, 37, 120, 1);
+    -fx-opblue: rgba(44, 173, 229, 0.5);
+    -fx-oppink: rgba(200, 37, 120, 0.5);
+}
+
+.root {
+    /*-fx-font-family: "Tw Cen MT Condensed";
+    -fx-font-size: 30;
+    -fx-font-weight: bold;
+    -fx-text-fill: -fx-white;*/
+    /*-fx-background-image: url("/src/main/resources/images/bg.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: stretch;*/
+}
+
+.pane {
+    -fx-background: transparent;
+    -fx-border-color: transparent;
+    -fx-border-width: 20px;
+}
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-hbar-policy: NEVER;
+    -fx-max-width: 700;
+    -fx-fit-to-width: true;
+}
+
+.text {
+    -fx-font-family: "Tw Cen MT Condensed";
+    -fx-font-size: 30;
+    -fx-font-weight: bold;
+    -fx-text-fill: -fx-white;
+}
+
+.label {
+    -fx-padding: 10;
+}
+
+/*TOPBOX*/
+.topbox {
+    -fx-spacing: 500;
+    -fx-alignment: Center;
+}
+
+/*TITLE*/
+.overlay-label {
+    -fx-background-color: -fx-opblue;
+    -fx-border-color: -fx-white;
+    -fx-border-width: 2;
+}
+
+/*WAIT*/
+.player-label {
+    -fx-background-color: -fx-oppink;
+}
+
+/*CHECKBOX*/
+.check-box .box {
+    -fx-background-color: -fx-oppink;
+    -fx-border-color: WHITE;
+}
+.check-box .text {
+
+}
+.check-box:selected .mark {
+    -fx-background-color: WHITE;
+}
+.check-box:selected .box {
+    -fx-background-color: -fx-pink;
+}
+
+/*BUTTON*/
+.button {
+    -fx-background-color: rgba(0, 0, 0, 0.5);
+    -fx-text-fill: DARKGREY;
+    -fx-font-size: 10; /*eig 50*/
+    -fx-alignment: Center;
+    -fx-background-radius: 30;
+    -fx-pref-width: 200;
+}
+.button:hover {
+    -fx-background-color: -fx-opblue;
+    -fx-text-fill: -fx-white;
+}
+.button:pressed {
+    -fx-background-color: -fx-blue;
+    -fx-text-fill: -fx-white;
+}
+
+/*TEXT FIELD*/
+.text-field {
+    -fx-max-width: 200;
+    -fx-font-size: 20;
+    -fx-font-family: "Tw Cen MT Condensed";
+    -fx-font-weight: bold;
+}
+
+/*ROOM ITEM*/
+.roomitem {
+    -fx-spacing: 10;
+    -fx-background-color: -fx-oppink;
+    -fx-border-width: 5;
+    -fx-border-color: -fx-white;
+    -fx-alignment: Center;
+    -fx-padding: 10;
+}
+
+.roomitem-text {
+    -fx-fill: -fx-white;
+    -fx-font: lighter 30 "Tw Cen MT Condensed";
+    -fx-spacing: 5;
+    -fx-alignment: Center;
+}
+
+/*ALERT DIALOG*/
+/*ALLES/UNTERER TEIL*/
+.dialog-pane {
+    -fx-background-color: #1f1f1f;
+}
+
+.dialog-pane .label {
+    -fx-text-fill: WHITE;
+}
+
+.dialog-pane .label .text {
+    -fx-font-size: 20;
+}
+
+/*OBERER TEIL*/
+.dialog-pane:header .header-panel {
+    -fx-background-color: #1f1f1f;
+    -fx-border-color: WHITE;
+    -fx-border-width: 0 0 2 0;
+}
+
+.dialog-pane:header .header-panel .label {
+    -fx-text-fill: #970000;
+}
+
+.dialog-pane:header .header-panel .label .text {
+    -fx-font-size: 30;
+}
+
+

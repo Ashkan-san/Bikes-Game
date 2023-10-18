@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+java -jar target/tron-0.1.jar

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <echo>Using env.test.properties</echo>
+  <copy file="view.properties" tofile="C:\Users\Ashma\IdeaProjects\VSPraktikum\bikes-game/target/view.properties"/>
+</target>
+</project>
